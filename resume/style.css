@@ -1,0 +1,49 @@
+.top-container{
+    display: inline-block;
+    background-color: beige;
+    padding: auto;
+}
+
+h1{
+    font-size:  2.5rem;
+    font-family: serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.lead{
+    text-align: center;
+    font-weight: 800;
+}
+
+img{
+    float: left;
+    border: 5px solid black;
+    margin-top: 10px;
+}
+
+
+.btn-outline-secondary{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.title-summary{
+    margin-left: 55%;
+}
+
+body{
+    background-color: beige;
+    display: block;
+}
+
+@media (max width: 600px){
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+}
+    
